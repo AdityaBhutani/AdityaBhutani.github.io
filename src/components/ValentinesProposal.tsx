@@ -158,7 +158,7 @@ export default function ValentinesProposal() {
                       }
                     : {}
                 }
-                onMouseEnter={() => setPosition(getRandomPosition())}
+                onClick={() => setPosition(getRandomPosition())}
               >
                 No, I won&apos;t 😢
               </button>
